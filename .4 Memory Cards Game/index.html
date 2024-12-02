@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Card Game</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="start-btn-container">
+        <button id="start-btn" class="start">Start</button>
+      </div>
+      <div class="game-info">
+        <p>Time Left: <span id="timer">40</span></p>
+        <p id="score-container">Score: <span id="score">0</span></p>
+      </div>
+      <div class="card-container"></div>
+      <div class="game-result" style="display: none">
+        <p id="result-message"></p>
+      </div>
+      <button class="reset" id="reset-btn">Reset Game</button>
+      <div id="leo">
+        <span>&copybyLeo &#129499;</span>
+      </div>
+    </div>
+    <audio
+      id="background-music"
+      src="./audio/background.mp3"
+      preload="auto"
+    ></audio>
+    <audio id="flip-effect" src="./audio/flipcardEdit1.mp3"></audio>
+    <audio id="remove-effect" src="./audio/Riddikulus.mp3"></audio>
+    <audio id="final-effect" src="./audio/Kedavra.mp3"></audio>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "frontImage": "assets/wizarding.png",
+    "backImage": "assets/Harry.png"
+  },
+  {
+    "id": 2,
+    "frontImage": "assets/wizarding.png",
+    "backImage": "assets/Harmony.png"
+  },
+  {
+    "id": 3,
+    "frontImage": "assets/wizarding.png",
+    "backImage": "assets/Albus.png"
+  },
+  {
+    "id": 4,
+    "frontImage": "assets/wizarding.png",
+    "backImage": "assets/Severus.png"
+  },
+  {
+    "id": 5,
+    "frontImage": "assets/wizarding.png",
+    "backImage": "assets/Hagrid.png"
+  },
+  {
+    "id": 6,
+    "frontImage": "assets/wizarding.png",
+    "backImage": "assets/Bellatrix.jpg"
+  },
+  {
+    "id": 7,
+    "frontImage": "assets/wizarding.png",
+    "backImage": "assets/woldemort.jpg"
+  },
+  {
+    "id": 9,
+    "frontImage": "assets/wizarding.png",
+    "backImage": "assets/Moody.jpg"
+  },
+  {
+    "id": 9,
+    "frontImage": "assets/wizarding.png",
+    "backImage": "assets/Neville.jpg"
+  }
+]
