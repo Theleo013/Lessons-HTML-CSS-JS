@@ -1,0 +1,173 @@
+/* --header-- */
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: SpaceGrotesk-Regular;
+}
+.links ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.links ul li a {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 1);
+}
+.btn-header {
+  width: 231px;
+  height: 68px;
+  border-radius: 14px;
+  background-color: #fff;
+  border: 1px solid rgba(25, 26, 35, 1);
+  color: rgba(0, 0, 0, 1);
+  cursor: pointer;
+}
+
+/* home */
+
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+}
+/* .description {
+} */
+.content {
+  width: 531px;
+  height: 231px;
+  font-size: 60px;
+  color: rgba(0, 0, 0, 1);
+  font-family: SpaceGrotesk-Regular;
+  margin: 0;
+}
+.paragraf {
+  width: 498px;
+  height: 112px;
+  font-size: 20px;
+  font-family: SpaceGrotesk-Regular;
+}
+.btn-home {
+  width: 226px;
+  height: 68px;
+  background-color: rgba(25, 26, 35, 1);
+  border-radius: 14px;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+/* .announcement {
+} */
+
+.company {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.company a img {
+  filter: grayscale(80%);
+}
+
+/* footer */
+.container-footer {
+  display: flex;
+  justify-content: center;
+  height: 514px;
+  border-radius: 45px 45px 0px 0px;
+  background-color: rgba(25, 26, 35, 1);
+  margin-top: 40px;
+}
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 70%;
+  padding-top: 40px;
+}
+.footer-header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 50px;
+}
+.footer-list ul {
+  display: flex;
+  gap: 30px;
+}
+.footer-list ul a {
+  display: flex;
+  gap: 30px;
+  color: rgba(255, 255, 255, 1);
+  font-family: SpaceGrotesk-Regular;
+  font-size: 18px;
+}
+.footer-social {
+  display: flex;
+  gap: 20px;
+}
+.footer-contact {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+}
+.contact-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contact {
+  width: 126px;
+  height: 26px;
+  border-radius: 7px;
+  background-color: rgba(185, 255, 102, 1);
+  color: rgba(0, 0, 0, 1);
+  font-family: SpaceGrotesk-Regular;
+}
+.footer-info {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 1);
+  font-family: SpaceGrotesk-Regular;
+}
+.contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 634px;
+  height: 184px;
+  background-color: rgba(41, 42, 50, 1);
+}
+.contact-form input {
+  background-color: transparent;
+  color: #fff;
+  padding-left: 10px;
+  width: 285px;
+  height: 67px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  font-family: SpaceGrotesk-Regular;
+}
+.contact-form button {
+  width: 249px;
+  height: 68px;
+  background-color: rgba(185, 255, 102, 1);
+  border-radius: 14px;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 1);
+  font-family: SpaceGrotesk-Regular;
+  cursor: pointer;
+}
+.hr {
+  padding-top: 30px;
+}
+.footer-copyright {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.footer-copyright p {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 1);
+  font-family: SpaceGrotesk-Regular;
+}
