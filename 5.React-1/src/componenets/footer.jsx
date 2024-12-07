@@ -35,7 +35,7 @@ function Footer() {
         </div>
         <div className="footer-contact">
           <div className="contact-inner">
-            <span className="contact">Contact us:</span>
+            <p className="contact">Contact us:</p>
             <span className="footer-info">Email: info@positivus.com</span>
             <span className="footer-info">Phone: 555-567-8901</span>
             <div>

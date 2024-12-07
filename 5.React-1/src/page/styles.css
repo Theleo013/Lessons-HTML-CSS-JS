@@ -21,3 +21,8 @@
   height: 350px;
   object-fit: cover;
 }
+@media screen and (max-width: 340px) {
+  .swiper {
+    width: 90%;
+  }
+}

@@ -23,8 +23,10 @@ function Header() {
           <li>
             <a href="/">Blog</a>
           </li>
+
           <button className="btn-header">Request a quote </button>
         </ul>
+        <img className="icon_nav" src="./icon/navbar_icon.svg" alt="icon" />
       </div>
     </div>
   );

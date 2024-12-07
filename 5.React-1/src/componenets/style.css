@@ -11,6 +11,9 @@
   align-items: center;
   gap: 30px;
 }
+.icon_nav {
+  display: none;
+}
 .links ul li a {
   font-size: 20px;
   color: rgba(0, 0, 0, 1);
@@ -66,7 +69,7 @@
   margin-top: 20px;
 }
 .company a img {
-  filter: grayscale(80%);
+  filter: grayscale(100%);
 }
 
 /* footer */
@@ -170,4 +173,121 @@
   font-size: 18px;
   color: rgba(255, 255, 255, 1);
   font-family: SpaceGrotesk-Regular;
+}
+
+/* responsive */
+
+/* @media screen and (max-width: 340px) {
+  .links ul {
+    display: none;
+  }
+  .icon_nav {
+    display: flex;
+  }
+} */
+@media screen and (max-width: 340px) {
+  .links ul {
+    display: none;
+  }
+  .icon_nav {
+    display: flex;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    height: 680px;
+  }
+  .content {
+    position: relative;
+    top: -200px;
+    font-size: 30px;
+    width: 270px;
+  }
+  .announcement {
+    position: absolute;
+    top: 275px;
+  }
+  .announcement img {
+    width: 270px;
+  }
+  .paragraf {
+    position: absolute;
+    top: 530px;
+    font-size: 14px;
+    width: 270px;
+  }
+  .btn-home {
+    position: absolute;
+    top: 675px;
+    width: 270px;
+    font-size: 14px;
+  }
+  .company {
+    flex-wrap: wrap;
+  }
+  .container-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 1050px;
+    border-radius: 0;
+  }
+  .contact-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer-list ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .footer-contact {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+  /* .contact-inner {
+  } */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 270px;
+    margin-top: 20px;
+  }
+  .contact-form input {
+    width: 200px;
+    height: 50px;
+  }
+  .contact-form button {
+    width: 215px;
+    height: 50px;
+    font-size: 14px;
+  }
+  .footer-copyright {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .content-wrapper {
+    position: relative;
+    padding: 0;
+  }
+  /* .footer-list {
+  } */
+  .footer-social {
+    position: absolute;
+    top: 785px;
+  }
+  .hr {
+    padding-top: 80px;
+  }
 }
