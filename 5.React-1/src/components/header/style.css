@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+  font-family: SpaceGrotesk-Regular;
+}
+.links ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.icon_nav {
+  display: none;
+}
+.links ul li a {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 1);
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.links ul li a:hover {
+  color: rgb(250, 181, 52);
+}
+.btn-header {
+  width: 231px;
+  height: 68px;
+  border-radius: 14px;
+  background-color: #fff;
+  border: 1px solid rgba(25, 26, 35, 1);
+  color: rgba(0, 0, 0, 1);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 340px) {
+  .links ul {
+    display: none;
+  }
+  .icon_nav {
+    display: flex;
+  }
+}

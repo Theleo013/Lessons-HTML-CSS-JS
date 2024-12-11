@@ -1,0 +1,19 @@
+.infoContainer {
+  display: flex;
+  align-items: center;
+  padding-top: 100px;
+  gap: 40px;
+}
+.infoSection {
+  background: rgba(185, 255, 102, 1);
+  font-size: 40px;
+  font-family: SpaceGrotesk-Regular;
+  color: rgba(0, 0, 0, 1);
+}
+.infoParagraph {
+  width: 580px;
+  height: 46px;
+  font-family: SpaceGrotesk-Regular;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 1);
+}

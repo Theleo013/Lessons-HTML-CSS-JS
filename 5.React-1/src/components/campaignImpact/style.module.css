@@ -1,0 +1,39 @@
+.campaignContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 326px;
+  border-radius: 45px;
+  background-color: rgba(25, 26, 35, 1);
+  margin-top: 100px;
+}
+.campaignContent {
+  display: flex;
+  gap: 50px;
+}
+.campaignInner {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.campaignContent p {
+  width: 286px;
+  height: 115px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  font-family: SpaceGrotesk-Regular;
+}
+.campaignLink {
+  display: flex;
+  gap: 15px;
+}
+.campaignLink a {
+  font-size: 20px;
+  color: rgba(185, 255, 102, 1);
+}
+/* .campaignLink img {
+} */
+.campaignMark {
+  display: flex;
+  flex-direction: column;
+}

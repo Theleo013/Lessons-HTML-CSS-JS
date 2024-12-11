@@ -1,18 +1,22 @@
-import react from "react";
+import React from "react";
 import "./App.css";
-import Header from "./componenets/header";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Header from "./components/header";
 import Home from "./page/home";
-import Footer from "./componenets/footer";
-import Slide from "./page/slide";
-
+import Footer from "./components/footer";
+import Services from "./page/services";
 function App() {
   return (
-    <>
-      <Header />
-      <Home />
-      <Slide />
-      <Footer />
-    </>
+    <Router>
+      <div>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/services" element={<Services />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

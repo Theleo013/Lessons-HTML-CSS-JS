@@ -1,0 +1,40 @@
+.ctaBlockContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 80px;
+  height: 347px;
+  background-color: rgba(243, 243, 243, 1);
+  border-radius: 45px;
+  margin-top: 100px;
+}
+.ctaBlockContent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.ctaBlockContent h3 {
+  font-size: 30px;
+  font-family: SpaceGrotesk-Regular;
+  color: rgba(0, 0, 0, 1);
+  margin: 0;
+}
+.ctaBlockContent p {
+  width: 500px;
+  height: 69px;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 1);
+  font-family: SpaceGrotesk-Regular;
+  margin: 0;
+}
+.ctaBlockContent button {
+  width: 288px;
+  height: 68px;
+  border-radius: 14px;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: SpaceGrotesk-Regular;
+}
+/* .ctaBlockImage {
+} */

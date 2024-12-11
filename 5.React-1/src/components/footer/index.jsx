@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css";
 
 function Footer() {
   return (
@@ -55,8 +56,13 @@ function Footer() {
           <hr style={{ width: "100%" }} />
         </div>
         <div className="footer-copyright">
-          <p>© 2024 Positivus. All Rights Reserved.</p>
-          <p>Privacy Policy</p>
+          <div className="footerCopyrightContent">
+            <p>© 2024 Positivus. All Rights Reserved.</p>
+            <p>Privacy Policy</p>
+          </div>
+          <div>
+            <p>© byLeo</p>
+          </div>
         </div>
       </div>
     </div>
