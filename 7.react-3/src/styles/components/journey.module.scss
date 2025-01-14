@@ -1,0 +1,47 @@
+@use "../partials/fonts" as *;
+@use "../partials/mixins" as *;
+@use "../partials/variables" as *;
+
+.journeyContainer {
+  @include flex2(flex, column, start);
+  padding: $pxxl;
+  height: 1400px;
+
+  .journeyHeadingTitle {
+    span {
+      font-family: Bevan-Regular;
+      font-size: 120px;
+      color: $primary-color;
+    }
+  }
+  .journeyContentContainer {
+    @include flex(flex, space-between, null, null, null);
+    padding: $pxxxl 0;
+
+    .journeyContent {
+      @include flex3(flex, column, start, 40px);
+      padding: $pxl 0;
+
+      h4 {
+        font-family: Bevan-Regular;
+        font-size: $fs-xll;
+        color: $secondary-color;
+      }
+      .journeyContentPar {
+        @include flex3(flex, column, null, 30px);
+        p {
+          font-family: Epilogue-Regular;
+          font-size: $fs-m;
+          color: $list-color;
+          max-width: 80%;
+        }
+      }
+    }
+    .journeyImage {
+      img {
+        @include w-h(680px, 720px);
+        border-radius: $br-xl;
+      }
+    }
+  }
+}

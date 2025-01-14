@@ -1,0 +1,110 @@
+@font-face {
+  font-family: Bevan-Regular;
+  src: url(@/assets/fonts/Bevan-Regular.ttf);
+}
+@font-face {
+  font-family: Epilogue-Regular;
+  src: url(@/assets/fonts/Epilogue-Regular.ttf);
+}
+@font-face {
+  font-family: Epilogue-Bold;
+  src: url(@/assets/fonts/Epilogue-Bold.ttf);
+}
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(247, 247, 247);
+  height: 1333px;
+  padding: 80px;
+}
+.aboutContainer .aboutContentContainer {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+.aboutContainer .aboutContentContainer span {
+  font-family: Epilogue-Bold;
+  font-size: fs-ml;
+  color: rgb(142, 122, 218);
+}
+.aboutContainer .aboutContentContainer h3 {
+  font-family: Bevan-Regular;
+  font-size: 40px;
+  color: rgb(24, 23, 28);
+}
+.aboutContainer .aboutContentContainer p {
+  font-family: Epilogue-Regular;
+  font-size: 16px;
+}
+.aboutContainer .aboutImageContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 0;
+}
+.aboutContainer .aboutImageContainer img {
+  height: 640px;
+  border-radius: 24px;
+}
+.aboutContainer .aboutImageContainer .aboutImageWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: justify;
+  gap: 30px;
+  padding: 32px 0;
+}
+.aboutContainer .aboutImageContainer .aboutImageWrapper .aboutImageContent {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.aboutContainer .aboutImageContainer .aboutImageWrapper h4 {
+  font-family: Bevan-Regular;
+  font-size: 24px;
+  color: rgb(24, 23, 28);
+}
+.aboutContainer .aboutImageContainer .aboutImageWrapper p {
+  font-family: Epilogue-Regular;
+  font-size: 16px;
+  color: rgb(79, 79, 79);
+}
+
+.teamContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  text-align: center;
+  height: 1545px;
+  background-color: rgb(247, 247, 247);
+  padding: 100px 80px;
+}
+.teamContainer .teamHeadingTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.teamContainer .teamHeadingTitle h3 {
+  font-family: Bevan-Regular;
+  font-size: 48px;
+  color: rgb(24, 23, 28);
+}
+.teamContainer .teamHeadingTitle p {
+  font-family: Epilogue-Regular;
+  font-size: 18px;
+  color: rgb(24, 23, 28);
+}
+.teamContainer .teamCardContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.teamContainer .teamCardContainer .teamCardWrapper {
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+}/*# sourceMappingURL=about.module.css.map */

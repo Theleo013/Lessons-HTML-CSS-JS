@@ -1,0 +1,37 @@
+@use "../partials/fonts" as *;
+@use "../partials/mixins" as *;
+@use "../partials/variables" as *;
+
+.teamCard {
+  @include flex4(flex, center, column, center, 20px);
+  @include w-h(579px, 494px);
+  border-radius: $br-l;
+  border: 1px solid rgba(242, 242, 242, 1);
+  background-color: $card-color;
+  .teamImage {
+    img {
+      @include w-h(160px, 160px);
+      border-radius: 50%;
+    }
+  }
+  .teamContentContainer {
+    @include flex3(flex, column, center, 20px);
+
+    span {
+      font-family: Epilogue-Regular;
+      font-size: $fs-s;
+      color: $list-color;
+    }
+    h4 {
+      font-family: Bevan-Regular;
+      font-size: $fs-l;
+      color: $secondary-color;
+    }
+    p {
+      font-family: Epilogue-Regular;
+      font-size: $fs-m;
+      color: $list-color;
+      padding: 0 35px;
+    }
+  }
+}

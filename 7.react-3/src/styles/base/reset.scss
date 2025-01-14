@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  a {
+    text-decoration: none;
+  }
+  li {
+    list-style: none;
+  }
+  body.light-mode {
+    background-color: white;
+    color: black;
+  }
+
+  /* Dark mode background */
+  body.dark-mode {
+    background-color: black;
+    color: white;
+  }
+}
+// .active {
+//   color: red;
+// }
+/* index.css */
+
+/* Light mode default background */

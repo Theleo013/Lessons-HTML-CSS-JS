@@ -1,0 +1,111 @@
+@font-face {
+  font-family: Bevan-Regular;
+  src: url(@/assets/fonts/Bevan-Regular.ttf);
+}
+@font-face {
+  font-family: Epilogue-Regular;
+  src: url(@/assets/fonts/Epilogue-Regular.ttf);
+}
+@font-face {
+  font-family: Epilogue-Bold;
+  src: url(@/assets/fonts/Epilogue-Bold.ttf);
+}
+.getInvoledCard {
+  width: 1280px;
+  height: 560px;
+  border: 1px solid rgb(242, 242, 242);
+  background-color: rgb(255, 255, 255);
+  border-radius: 24px;
+  position: relative;
+}
+.getInvoledCard .getInvoledLogo {
+  position: absolute;
+  top: -90px;
+  left: 47px;
+}
+.getInvoledCard .getInvoledContentContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 57px 0;
+}
+.getInvoledCard .getInvoledContentContainer .getInvoledContentWrapper {
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+}
+.getInvoledCard .getInvoledContentContainer .getInvoledContentWrapper .getInvoledCardTitle {
+  font-family: Bevan-Regular;
+  font-size: 32px;
+  color: rgb(24, 23, 28);
+}
+.getInvoledCard .getInvoledContentContainer .getInvoledContentWrapper .getInvoledDescription {
+  width: 380px;
+  font-family: Epilogue-Regular;
+  font-size: 16px;
+  color: rgb(79, 79, 79);
+}
+.getInvoledCard .getInvoledContentContainer .getInvoledContentWrapper .getInvoledMainButton {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.getInvoledCard .getInvoledContentContainer .getInvoledContentWrapper .getInvoledMainButton button {
+  border: 1px solid rgb(142, 122, 218);
+  background: transparent;
+  font-family: Epilogue-Regular;
+  font-size: 16px;
+  color: rgb(142, 122, 218);
+  cursor: pointer;
+}
+.getInvoledCard .getInvoledContentContainer .getInvoledContentWrapper .getInvoledInput {
+  display: flex;
+  gap: 5px;
+}
+.getInvoledCard .getInvoledContentContainer .getInvoledContentWrapper .getInvoledInput input {
+  width: 320px;
+  height: 56px;
+  border: 1px solid rgb(242, 242, 242);
+  border-radius: 8px;
+  padding: 0 16px;
+  font-family: Epilogue-Regular;
+  font-size: 14px;
+  color: rgb(189, 189, 189);
+}
+.getInvoledCard .getInvoledContentContainer .getInvoledContentWrapper .getInvoledInput button {
+  width: 122px;
+  height: 56px;
+  border-radius: 8px;
+  background-color: rgb(142, 122, 218);
+  color: rgb(255, 255, 255);
+  border: none;
+  font-family: Epilogue-Regular;
+}
+.getInvoledCard .getInvoledContentContainer .getInvoledImageContainer {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.getInvoledCard .getInvoledContentContainer .getInvoledImageContainer .getInvoledImage img {
+  width: 562px;
+  height: 440px;
+  background-color: rgb(219, 219, 219);
+  border-radius: 16px;
+}
+.getInvoledCard .getInvoledContentContainer .getInvoledImageContainer .getInvoledButtonContainer {
+  display: flex;
+  gap: 20px;
+}
+.getInvoledCard .getInvoledContentContainer .getInvoledImageContainer .getInvoledButtonContainer button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 268px;
+  height: 56px;
+  border-radius: 8px;
+  background-color: rgb(142, 122, 218);
+  color: rgb(255, 255, 255);
+  border: none;
+  font-family: Epilogue-Regular;
+}/*# sourceMappingURL=getInvoledCard.module.css.map */

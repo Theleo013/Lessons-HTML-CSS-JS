@@ -1,0 +1,59 @@
+@use "../partials/fonts" as *;
+@use "../partials/mixins" as *;
+@use "../partials/variables" as *;
+
+.hopeContainer {
+  @include flex2(flex, column, center);
+  text-align: center;
+  gap: 56px;
+  padding: $pxxl;
+  height: 1343px;
+  .hopeContentContainer {
+    @include flex2(flex, column, null);
+    gap: 20px;
+    span {
+      font-family: Epilogue-Bold;
+      font-size: $fs-ml;
+      color: $primary-color;
+    }
+    h3 {
+      font-family: Bevan-Regular;
+      font-size: $fs-xlm;
+      color: $secondary-color;
+    }
+    p {
+      font-family: Epilogue-Regular;
+      font-size: $fs-m;
+    }
+  }
+  .hopeSection {
+    @include flex(flex, space-between, center, null, null);
+    width: 100%;
+    padding-top: 100px;
+    .hopeSectionContent {
+      @include flex2(flex, column, null);
+      gap: 100px;
+      .contentWrapper {
+        @include flex2(flex, column, start);
+        gap: 20px;
+      }
+      h4 {
+        font-family: Bevan-Regular;
+        font-size: $fs-l;
+      }
+      p {
+        display: flex;
+        text-align: justify;
+        font-family: Epilogue-Regular;
+        font-size: $fs-m;
+      }
+    }
+    .hopeSectionImage {
+      img {
+        filter: brightness(80%);
+        height: 720px;
+        border-radius: $br-xl;
+      }
+    }
+  }
+}

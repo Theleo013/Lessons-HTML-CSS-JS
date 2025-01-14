@@ -1,0 +1,42 @@
+@use "../partials/fonts" as *;
+@use "../partials/mixins" as *;
+@use "../partials/variables" as *;
+
+.headerContainer {
+  @include flex(flex, space-between, center, null, null);
+  height: 100px;
+  background-color: $bg-color;
+  border-bottom: $br-1;
+  padding: 0 $pxl;
+}
+
+.logo {
+  font-family: Bevan-Regular;
+  font-size: $fs-xl;
+  a {
+    color: $primary-color;
+  }
+}
+.nav {
+  ul {
+    display: flex;
+    gap: 40px;
+    a {
+      color: $list-color;
+      font-size: $fs-m;
+      font-family: Epilogue-Regular;
+    }
+  }
+}
+.donate {
+  @include btn-primary;
+  @include flex-center;
+  button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: $fs-m;
+    font-family: Epilogue-Regular;
+    cursor: pointer;
+  }
+}

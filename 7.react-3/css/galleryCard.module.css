@@ -1,0 +1,27 @@
+@font-face {
+  font-family: Bevan-Regular;
+  src: url(@/assets/fonts/Bevan-Regular.ttf);
+}
+@font-face {
+  font-family: Epilogue-Regular;
+  src: url(@/assets/fonts/Epilogue-Regular.ttf);
+}
+@font-face {
+  font-family: Epilogue-Bold;
+  src: url(@/assets/fonts/Epilogue-Bold.ttf);
+}
+.galleryCard {
+  padding: 32px 80px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.galleryCard .galleryCardContainer {
+  display: flex;
+  gap: 20px;
+}
+.galleryCard .galleryCardContainer img {
+  width: 383px;
+  height: 300px;
+  border-radius: 8px;
+}/*# sourceMappingURL=galleryCard.module.css.map */

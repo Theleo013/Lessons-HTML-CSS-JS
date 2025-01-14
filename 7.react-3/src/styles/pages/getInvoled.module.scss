@@ -1,0 +1,31 @@
+@use "../partials/fonts" as *;
+@use "../partials/mixins" as *;
+@use "../partials/variables" as *;
+
+.getInvoled {
+  @include flex2(flex, column, center);
+  padding: $pxxxl 0 $pl 0;
+  background-color: $bg-color2;
+  .getInvoledHeadingContainer {
+    @include flex3(flex, column, center, 20px);
+    text-align: center;
+
+    .getInvoledTitle {
+      font-family: Bevan-Regular;
+      font-size: $fs-xxxl;
+      color: $secondary-color;
+    }
+    .getInvoledParagraph {
+      font-family: Epilogue-Regular;
+      font-size: $fs-m;
+      color: $list-color;
+      padding: 0 265px;
+    }
+  }
+  .getInvoledCardContainer {
+    @include flex-space(flex, 150px, column);
+    padding: 150px 0 100px 0;
+  }
+  // .getInvoledGalleryContainer {
+  // }
+}

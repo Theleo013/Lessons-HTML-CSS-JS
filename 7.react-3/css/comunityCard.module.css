@@ -1,0 +1,40 @@
+@font-face {
+  font-family: Bevan-Regular;
+  src: url(@/assets/fonts/Bevan-Regular.ttf);
+}
+@font-face {
+  font-family: Epilogue-Regular;
+  src: url(@/assets/fonts/Epilogue-Regular.ttf);
+}
+@font-face {
+  font-family: Epilogue-Bold;
+  src: url(@/assets/fonts/Epilogue-Bold.ttf);
+}
+.comunityCard {
+  width: 380px;
+  height: 320px;
+  background-color: rgb(247, 247, 247);
+  border: 1px solid rgb(242, 242, 242);
+  border-radius: 16px;
+}
+.comunityCard .comunityCardWrapper {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  padding: 32px;
+}
+.comunityCard .comunityCardWrapper .comunityCardImage img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.comunityCard .comunityCardWrapper .comunityCardDescription {
+  font-family: Epilogue-regular;
+  font-size: 14px;
+  color: rgb(79, 79, 79);
+}
+.comunityCard .comunityCardWrapper .comunityCardTitle {
+  font-family: Epilogue-regular;
+  font-size: 16px;
+  color: rgb(79, 79, 79);
+}/*# sourceMappingURL=comunityCard.module.css.map */

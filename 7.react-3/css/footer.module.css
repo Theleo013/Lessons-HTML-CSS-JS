@@ -1,0 +1,88 @@
+@font-face {
+  font-family: Bevan-Regular;
+  src: url(@/assets/fonts/Bevan-Regular.ttf);
+}
+@font-face {
+  font-family: Epilogue-Regular;
+  src: url(@/assets/fonts/Epilogue-Regular.ttf);
+}
+@font-face {
+  font-family: Epilogue-Bold;
+  src: url(@/assets/fonts/Epilogue-Bold.ttf);
+}
+.footerContainer {
+  background-color: rgb(24, 23, 28);
+  height: 500px;
+  padding: 100px 64px;
+}
+.footerContainer .footerWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.footerContainer .footerWrapper .footerContentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.footerContainer .footerWrapper .footerContentContainer .footerLogo {
+  font-family: Bevan-Regular;
+  font-size: 28px;
+  color: rgb(255, 255, 255);
+}
+.footerContainer .footerWrapper .footerContentContainer .footerContentWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.footerContainer .footerWrapper .footerContentContainer .footerContentWrapper .footerContent {
+  display: flex;
+  flex-direction: column;
+  font-family: Epilogue-Regular;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  gap: 6px;
+}
+.footerContainer .footerWrapper .footerContentContainer .footerContentWrapper .footerSocial {
+  display: flex;
+  gap: 12px;
+}
+.footerContainer .footerWrapper .footerNavContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+.footerContainer .footerWrapper .footerNavContainer .footerNav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-family: Epilogue-Regular;
+  font-size: 14px;
+}
+.footerContainer .footerWrapper .footerNavContainer .footerNav ul a {
+  color: rgb(255, 255, 255);
+}
+.footerContainer .footerCopyRightContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgb(249, 249, 249);
+  margin-top: 100px;
+  padding-top: 20px;
+}
+.footerContainer .footerCopyRight {
+  color: rgb(255, 255, 255);
+}
+.footerContainer .footerCopyRightSecondary {
+  display: flex;
+  gap: 20px;
+}
+.footerContainer .footerCopyRightSecondary button {
+  background: transparent;
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+}/*# sourceMappingURL=footer.module.css.map */

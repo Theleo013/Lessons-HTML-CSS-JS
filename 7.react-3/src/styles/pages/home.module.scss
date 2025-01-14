@@ -1,0 +1,26 @@
+@use "../partials/fonts" as *;
+@use "../partials/mixins" as *;
+@use "../partials/variables" as *;
+
+.homeContainer {
+  @include flex-center;
+  background-color: $bg-color;
+  padding: 0 $pxxl;
+  height: 1124px;
+  .homeWrapper {
+    display: flex;
+    gap: 60px;
+    flex-direction: column;
+    .homeContent {
+      font-family: Bevan-Regular;
+      font-size: $fs-l;
+      text-align: center;
+    }
+    .homeMainImage {
+      img {
+        width: 100%;
+        border-radius: $br-xl;
+      }
+    }
+  }
+}

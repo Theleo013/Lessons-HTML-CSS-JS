@@ -1,0 +1,43 @@
+@font-face {
+  font-family: Bevan-Regular;
+  src: url(@/assets/fonts/Bevan-Regular.ttf);
+}
+@font-face {
+  font-family: Epilogue-Regular;
+  src: url(@/assets/fonts/Epilogue-Regular.ttf);
+}
+@font-face {
+  font-family: Epilogue-Bold;
+  src: url(@/assets/fonts/Epilogue-Bold.ttf);
+}
+.getInvoled {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0 32px 0;
+  background-color: rgb(219, 219, 219);
+}
+.getInvoled .getInvoledHeadingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+.getInvoled .getInvoledHeadingContainer .getInvoledTitle {
+  font-family: Bevan-Regular;
+  font-size: 60px;
+  color: rgb(24, 23, 28);
+}
+.getInvoled .getInvoledHeadingContainer .getInvoledParagraph {
+  font-family: Epilogue-Regular;
+  font-size: 16px;
+  color: rgb(79, 79, 79);
+  padding: 0 265px;
+}
+.getInvoled .getInvoledCardContainer {
+  display: flex;
+  gap: 150px;
+  flex-direction: column;
+  padding: 150px 0 100px 0;
+}/*# sourceMappingURL=getInvoled.module.css.map */

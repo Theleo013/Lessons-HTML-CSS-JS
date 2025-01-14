@@ -1,0 +1,51 @@
+@font-face {
+  font-family: Bevan-Regular;
+  src: url(@/assets/fonts/Bevan-Regular.ttf);
+}
+@font-face {
+  font-family: Epilogue-Regular;
+  src: url(@/assets/fonts/Epilogue-Regular.ttf);
+}
+@font-face {
+  font-family: Epilogue-Bold;
+  src: url(@/assets/fonts/Epilogue-Bold.ttf);
+}
+.teamCard {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 579px;
+  height: 494px;
+  border-radius: 16px;
+  border: 1px solid rgb(242, 242, 242);
+  background-color: rgb(255, 255, 255);
+}
+.teamCard .teamImage img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+.teamCard .teamContentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.teamCard .teamContentContainer span {
+  font-family: Epilogue-Regular;
+  font-size: 14px;
+  color: rgb(79, 79, 79);
+}
+.teamCard .teamContentContainer h4 {
+  font-family: Bevan-Regular;
+  font-size: 24px;
+  color: rgb(24, 23, 28);
+}
+.teamCard .teamContentContainer p {
+  font-family: Epilogue-Regular;
+  font-size: 16px;
+  color: rgb(79, 79, 79);
+  padding: 0 35px;
+}/*# sourceMappingURL=teamCard.module.css.map */

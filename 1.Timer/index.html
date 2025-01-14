@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List Transfer</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        height: 100vh;
+        margin: 0;
+        .box {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 80px;
+          height: 80px;
+          border: 2px dashed gray;
+          border-radius: 50%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <span id="minutes">00</span>:<span id="seconds">00</span>
+    </div>
+    <button id="btn">Start</button>
+    <button id="reset">Reset</button>
+
+    <script src="app.js"></script>
+  </body>
+</html>

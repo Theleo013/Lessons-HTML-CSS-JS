@@ -1,0 +1,36 @@
+@font-face {
+  font-family: Bevan-Regular;
+  src: url(@/assets/fonts/Bevan-Regular.ttf);
+}
+@font-face {
+  font-family: Epilogue-Regular;
+  src: url(@/assets/fonts/Epilogue-Regular.ttf);
+}
+@font-face {
+  font-family: Epilogue-Bold;
+  src: url(@/assets/fonts/Epilogue-Bold.ttf);
+}
+.campaignsContainer {
+  padding: 100px 80px 16px 80px;
+}
+.campaignsContainer .campaignsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+}
+.campaignsContainer .campaignsWrapper .campaignsHeading h3 {
+  font-family: Bevan-Regular;
+  font-size: 48px;
+  color: rgb(51, 51, 51);
+}
+.campaignsContainer .campaignsWrapper .campaignsCardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.campaignsContainer .campaignsWrapper .campaignsCardContainer .campaignsContentContainer {
+  display: flex;
+  gap: 20px;
+}/*# sourceMappingURL=campaigns.module.css.map */

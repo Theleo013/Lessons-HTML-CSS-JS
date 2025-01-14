@@ -1,0 +1,30 @@
+@use "../partials/fonts" as *;
+@use "../partials/mixins" as *;
+@use "../partials/variables" as *;
+
+.comunityCard {
+  @include w-h(380px, 320px);
+  background-color: $bg-color;
+  border: $br-2;
+  border-radius: $br-l;
+  .comunityCardWrapper {
+    @include flex-space(flex, 20px, column);
+    padding: $pl;
+    .comunityCardImage {
+      img {
+        @include w-h(80px, 80px);
+        border-radius: 50%;
+      }
+    }
+    .comunityCardDescription {
+      font-family: Epilogue-regular;
+      font-size: $fs-s;
+      color: $list-color;
+    }
+    .comunityCardTitle {
+      font-family: Epilogue-regular;
+      font-size: $fs-m;
+      color: $list-color;
+    }
+  }
+}

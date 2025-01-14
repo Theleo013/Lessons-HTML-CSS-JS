@@ -1,0 +1,16 @@
+@use "../partials/fonts" as *;
+@use "../partials/mixins" as *;
+@use "../partials/variables" as *;
+
+.galleryCard {
+  padding: $pl $pxxl;
+  @include flex-space(flex, 20px, column);
+
+  .galleryCardContainer {
+    @include flex-space(flex, 20px, null);
+    img {
+      @include w-h(383px, 300px);
+      border-radius: $br-m;
+    }
+  }
+}

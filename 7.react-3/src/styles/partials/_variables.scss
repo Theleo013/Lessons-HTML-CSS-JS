@@ -1,0 +1,58 @@
+//& responsive
+$xs: 340px;
+$sm: 576px;
+$md: 768px;
+$lg: 1024px;
+$xl: 1200px;
+$xxl: 1440px;
+$xxxl: 1920px;
+
+//& colors
+
+$primary-color: rgba(142, 122, 218, 1);
+$secondary-color: rgba(24, 23, 28, 1);
+$therty-color: rgba(51, 51, 51, 1);
+$bg-color: rgba(247, 247, 247, 1);
+$bg-color2: rgba(219, 219, 219, 1);
+$list-color: rgba(79, 79, 79, 1);
+$footer-color: rgba(255, 255, 255, 1);
+$card-color: rgba(255, 255, 255, 1);
+$placeHolder-color: rgba(189, 189, 189, 1);
+
+//& padding
+$ps: 8px;
+$pm: 16px;
+$pl: 32px;
+$pxl: 64px;
+$pxxl: 80px;
+$pxxxl: 100px;
+
+//& margin
+$ms: 8px;
+$mm: 16px;
+$ml: 32px;
+
+//& font-size
+$fs-xs: 12px;
+$fs-s: 14px;
+$fs-m: 16px;
+$fs-ml: 18px;
+$fs-l: 24px;
+$fs-xl: 28px;
+$fs-xxl: 32px;
+$fs-xll: 40px;
+$fs-xlm: 48px;
+$fs-xxxl: 60px;
+
+//& border-radius
+$br-s: 4px;
+$br-m: 8px;
+$br-l: 16px;
+$br-xl: 24px;
+$br-xxl: 50px;
+
+//& border
+
+$br-1: 1px solid rgba(224, 224, 224, 1);
+$br-2: 1px solid rgba(242, 242, 242, 1);
+$br-3: 1px solid $primary-color;

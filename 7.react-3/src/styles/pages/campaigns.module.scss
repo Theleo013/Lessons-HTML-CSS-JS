@@ -1,0 +1,24 @@
+@use "../partials/fonts" as *;
+@use "../partials/mixins" as *;
+@use "../partials/variables" as *;
+
+.campaignsContainer {
+  padding: $pxxxl $pxxl $pm $pxxl;
+  .campaignsWrapper {
+    @include flex3(flex, column, center, 80px);
+
+    .campaignsHeading {
+      h3 {
+        font-family: Bevan-Regular;
+        font-size: $fs-xlm;
+        color: $therty-color;
+      }
+    }
+    .campaignsCardContainer {
+      @include flex3(flex, column, center, 40px);
+      .campaignsContentContainer {
+        @include flex-space(flex, 20px, null);
+      }
+    }
+  }
+}

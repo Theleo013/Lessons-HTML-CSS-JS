@@ -1,0 +1,74 @@
+@use "../partials/fonts" as *;
+@use "../partials/mixins" as *;
+@use "../partials/variables" as *;
+
+.footerContainer {
+  background-color: $secondary-color;
+  height: 500px;
+  padding: $pxxxl $pxl;
+  .footerWrapper {
+    @include space-between;
+    width: 100%;
+    .footerContentContainer {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      .footerLogo {
+        font-family: Bevan-Regular;
+        font-size: $fs-xl;
+        color: $footer-color;
+      }
+      .footerContentWrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        .footerContent {
+          @include flex-column;
+          font-family: Epilogue-Regular;
+          font-size: $fs-s;
+          color: $footer-color;
+          gap: 6px;
+        }
+        .footerSocial {
+          display: flex;
+          gap: 12px;
+        }
+      }
+    }
+    .footerNavContainer {
+      @include flex-center;
+      gap: 200px;
+      .footerNav {
+        ul {
+          @include flex-column;
+          gap: 24px;
+          font-family: Epilogue-Regular;
+          font-size: $fs-s;
+          a {
+            color: $footer-color;
+          }
+        }
+      }
+    }
+  }
+  .footerCopyRightContainer {
+    @include space-between;
+    border-top: 1px solid rgba(249, 249, 249, 1);
+    margin-top: 100px;
+    padding-top: 20px;
+  }
+  .footerCopyRight {
+    color: $footer-color;
+  }
+  .footerCopyRightSecondary {
+    display: flex;
+    gap: 20px;
+    button {
+      background: transparent;
+      color: $footer-color;
+      border: none;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+}

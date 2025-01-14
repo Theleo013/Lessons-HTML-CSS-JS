@@ -1,0 +1,81 @@
+@use "../partials/fonts" as *;
+@use "../partials/mixins" as *;
+@use "../partials/variables" as *;
+
+.aboutContainer {
+  @include flex2(flex, column, center);
+  text-align: center;
+  background-color: $bg-color;
+  height: 1333px;
+  padding: $pxxl;
+  .aboutContentContainer {
+    @include flex-space(flex, 30px, column);
+    span {
+      font-family: Epilogue-Bold;
+      font-size: fs-ml;
+      color: $primary-color;
+    }
+    h3 {
+      font-family: Bevan-Regular;
+      font-size: $fs-xll;
+      color: $secondary-color;
+    }
+    p {
+      font-family: Epilogue-Regular;
+      font-size: $fs-m;
+    }
+  }
+  .aboutImageContainer {
+    @include flex2(flex, column, null);
+    padding: $pxxxl 0;
+    img {
+      height: 640px;
+      border-radius: $br-xl;
+    }
+    .aboutImageWrapper {
+      @include flex(flex, space-between, center, justify, 30px);
+      padding: $pl 0;
+      .aboutImageContent {
+        @include flex-space(flex, 20px, column);
+      }
+      h4 {
+        font-family: Bevan-Regular;
+        font-size: $fs-l;
+        color: $secondary-color;
+      }
+      p {
+        font-family: Epilogue-Regular;
+        font-size: $fs-m;
+        color: $list-color;
+      }
+    }
+  }
+}
+
+.teamContainer {
+  @include flex3(flex, column, center, 100px);
+  text-align: center;
+  height: 1545px;
+  background-color: $bg-color;
+  padding: $pxxxl $pxxl;
+  .teamHeadingTitle {
+    @include flex3(flex, column, center, 20px);
+    h3 {
+      font-family: Bevan-Regular;
+      font-size: $fs-xlm;
+      color: $secondary-color;
+    }
+    p {
+      font-family: Epilogue-Regular;
+      font-size: $fs-ml;
+      color: $secondary-color;
+    }
+  }
+  .teamCardContainer {
+    @include space-between;
+    width: 100%;
+    .teamCardWrapper {
+      @include flex-space(flex, 32px, column);
+    }
+  }
+}

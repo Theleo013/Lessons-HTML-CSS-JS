@@ -1,0 +1,89 @@
+@use "../partials/fonts" as *;
+@use "../partials/mixins" as *;
+@use "../partials/variables" as *;
+
+.getInvoledCard {
+  @include w-h(1280px, 560px);
+  border: $br-2;
+  background-color: $card-color;
+  border-radius: $br-xl;
+  position: relative;
+  .getInvoledLogo {
+    position: absolute;
+    top: -90px;
+    left: 47px;
+  }
+  .getInvoledContentContainer {
+    @include space-around;
+    padding: 57px 0;
+    .getInvoledContentWrapper {
+      @include flex-space(flex, 32px, column);
+      .getInvoledCardTitle {
+        font-family: Bevan-Regular;
+        font-size: $fs-xxl;
+        color: $secondary-color;
+      }
+      .getInvoledDescription {
+        width: 380px;
+        font-family: Epilogue-Regular;
+        font-size: $fs-m;
+        color: $list-color;
+      }
+      .getInvoledMainButton {
+        @include flex-align;
+        button {
+          border: $br-3;
+          background: transparent;
+          font-family: Epilogue-Regular;
+          font-size: $fs-m;
+          color: $primary-color;
+          cursor: pointer;
+        }
+      }
+      .getInvoledInput {
+        @include flex-space(flex, 5px, null);
+        input {
+          @include w-h(320px, 56px);
+          border: $br-2;
+          border-radius: $br-m;
+          padding: 0 $pm;
+          font-family: Epilogue-Regular;
+          font-size: $fs-s;
+          color: $placeHolder-color;
+        }
+        button {
+          width: 122px;
+          height: 56px;
+          border-radius: 8px;
+          background-color: rgba(142, 122, 218, 1);
+          color: $card-color;
+          border: none;
+          font-family: Epilogue-Regular;
+        }
+      }
+    }
+    .getInvoledImageContainer {
+      @include flex-space(flex, 10px, column);
+
+      .getInvoledImage {
+        img {
+          @include w-h(562px, 440px);
+          background-color: $bg-color2;
+          border-radius: $br-l;
+        }
+      }
+      .getInvoledButtonContainer {
+        @include flex-space(flex, 20px, null);
+        button {
+          @include flex4(flex, center, null, center, 10px);
+          @include w-h(268px, 56px);
+          border-radius: $br-m;
+          background-color: rgba(142, 122, 218, 1);
+          color: $card-color;
+          border: none;
+          font-family: Epilogue-Regular;
+        }
+      }
+    }
+  }
+}
