@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { batch } from "react-redux";
 import persistReducer from "redux-persist/es/persistReducer";
+import storage from "redux-persist/lib/storage";
 
 const initialState = {
   basket: [],
@@ -21,7 +21,7 @@ export const BasketSlice = createSlice({
 
 export const { addToBasket, removeFromBasket } = BasketSlice.actions;
 export const reducer = persistReducer(
-  { key: "ECM:basket", storage: localStorage, whitelist: ["basket"] },
+  { key: "ECM:basket", storage, localStorage, whitelist: ["basket"] },
   BasketSlice.reducer
 );
 

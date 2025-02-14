@@ -1,7 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit";
-import basketReducer from "@/redux/features/basketSlice";
+import { middlewares, reducer } from "./reducersAndMiddlewares";
 import {
   persistStore,
+  persistReducer,
   FLUSH,
   REHYDRATE,
   PAUSE,
@@ -11,18 +12,13 @@ import {
 } from "redux-persist";
 
 export const store = configureStore({
-  reducer: {
-    basket: basketReducer,
-  },
+  reducer,
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({
       serializableCheck: {
         ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
       },
-    }),
+    }).concat(middlewares),
 });
 
 export const persistor = persistStore(store);
-
-
-
